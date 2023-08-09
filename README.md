@@ -98,3 +98,16 @@ kubectl get pods --all-namespaces
 ```
 
 
+
+## 7. Delete all the cluster
+
+```bash
+eksctl delete cluster --name kubeflow
+```
+
+```bash
+kubectl get nodes
+```
+
+- eks
+- cloud formation
